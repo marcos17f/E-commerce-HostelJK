@@ -1,0 +1,5 @@
+/* Fontes hospedadas no próprio site (sem requisição ao Google Fonts), todas com font-display: swap. */
+@import '@fontsource/poppins/latin-500.css';
+@import '@fontsource/poppins/latin-600.css';
+@import '@fontsource/poppins/latin-700.css';
+@import '@fontsource-variable/inter/wght.css';

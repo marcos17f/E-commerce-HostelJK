@@ -1,0 +1,203 @@
+{
+  "area-comum-01": {
+    "largura": 1200,
+    "altura": 1600,
+    "larguras": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "area-comum-02": {
+    "largura": 1200,
+    "altura": 1600,
+    "larguras": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "area-comum-03": {
+    "largura": 1200,
+    "altura": 1600,
+    "larguras": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "area-comum-04": {
+    "largura": 1200,
+    "altura": 1600,
+    "larguras": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "banheiro-01": {
+    "largura": 1200,
+    "altura": 1600,
+    "larguras": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "banheiro-02": {
+    "largura": 1200,
+    "altura": 1600,
+    "larguras": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "beliche-01": {
+    "largura": 1600,
+    "altura": 1200,
+    "larguras": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "beliche-02": {
+    "largura": 1200,
+    "altura": 1600,
+    "larguras": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "beliche-03": {
+    "largura": 1600,
+    "altura": 1200,
+    "larguras": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "entrada-01": {
+    "largura": 1600,
+    "altura": 1200,
+    "larguras": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "fachada-01": {
+    "largura": 2200,
+    "altura": 1228,
+    "larguras": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "fachada-02": {
+    "largura": 1920,
+    "altura": 1440,
+    "larguras": [
+      480,
+      800,
+      1200,
+      1600,
+      1920
+    ]
+  },
+  "fachada-03": {
+    "largura": 1200,
+    "altura": 1600,
+    "larguras": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "patio-01": {
+    "largura": 1200,
+    "altura": 1600,
+    "larguras": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "quarto-compartilhado-01": {
+    "largura": 1600,
+    "altura": 901,
+    "larguras": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "quarto-compartilhado-02": {
+    "largura": 1600,
+    "altura": 901,
+    "larguras": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "quarto-compartilhado-03": {
+    "largura": 1920,
+    "altura": 863,
+    "larguras": [
+      480,
+      800,
+      1200,
+      1600,
+      1920
+    ]
+  },
+  "quarto-individual-01": {
+    "largura": 1600,
+    "altura": 1200,
+    "larguras": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "quarto-individual-02": {
+    "largura": 1600,
+    "altura": 901,
+    "larguras": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "quarto-individual-03": {
+    "largura": 1200,
+    "altura": 1600,
+    "larguras": [
+      480,
+      800,
+      1200
+    ]
+  },
+  "fachada-01-retrato": {
+    "largura": 921,
+    "altura": 1228,
+    "larguras": [
+      480,
+      800
+    ]
+  }
+}
