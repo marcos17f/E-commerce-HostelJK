@@ -105,16 +105,12 @@ export const faq = [
 ];
 
 export const galeria = [
-  { id: 'g01', foto: '/images/fachada-02.jpg', legenda: 'Fachada' },
-  { id: 'g02', foto: '/images/area-comum-01.jpg', legenda: 'Área comum' },
-  { id: 'g03', foto: '/images/quarto-compartilhado-01.jpg', legenda: 'Quarto compartilhado' },
-  { id: 'g04', foto: '/images/beliche-01.jpg', legenda: 'Beliches' },
-  { id: 'g05', foto: '/images/quarto-individual-01.jpg', legenda: 'Quarto individual' },
-  { id: 'g06', foto: '/images/banheiro-01.jpg', legenda: 'Banheiro' },
-  { id: 'g07', foto: '/images/patio-01.jpg', legenda: 'Área externa' },
-  { id: 'g08', foto: '/images/area-comum-02.jpg', legenda: 'Sala de estar' },
-  { id: 'g09', foto: '/images/entrada-01.jpg', legenda: 'Entrada' },
-  { id: 'g10', foto: '/images/fachada-03.jpg', legenda: 'Detalhe da fachada' },
-  { id: 'g11', foto: '/images/area-comum-03.jpg', legenda: 'Espaço compartilhado' },
-  { id: 'g12', foto: '/images/beliche-03.jpg', legenda: 'Detalhe do beliche' },
+  { id: 'g01', foto: '/images/beliche-04.jpg', legenda: 'Beliches' },
+  { id: 'g02', foto: '/images/quarto-compartilhado-05.jpg', legenda: 'Quarto para grupos' },
+  { id: 'g03', foto: '/images/quarto-04.jpg', legenda: 'Quartos' },
+  { id: 'g04', foto: '/images/banheiro-03.jpg', legenda: 'Banheiros' },
+  { id: 'g05', foto: '/images/quarto-compartilhado-04.jpg', legenda: 'Quarto com beliche' },
+  { id: 'g06', foto: '/images/quarto-compartilhado-06.jpg', legenda: 'Quarto com cama de casal' },
+  { id: 'g07', foto: '/images/area-comum-01.jpg', legenda: 'Área comum' },
+  { id: 'g08', foto: '/images/patio-01.jpg', legenda: 'Área externa' },
 ];

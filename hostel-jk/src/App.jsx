@@ -7,6 +7,7 @@ import Hero from './components/sections/Hero.jsx';
 import Benefits from './components/sections/Benefits.jsx';
 import ForWhom from './components/sections/ForWhom.jsx';
 import Rooms from './components/sections/Rooms.jsx';
+import Prices from './components/sections/Prices.jsx';
 import Amenities from './components/sections/Amenities.jsx';
 import Location from './components/sections/Location.jsx';
 import Gallery from './components/sections/Gallery.jsx';
@@ -24,6 +25,7 @@ export default function App() {
         <Benefits />
         <ForWhom />
         <Rooms />
+        <Prices />
         <Amenities />
         <Location />
         <Gallery />

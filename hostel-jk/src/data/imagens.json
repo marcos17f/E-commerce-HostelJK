@@ -53,6 +53,14 @@
       1200
     ]
   },
+  "banheiro-03": {
+    "largura": 768,
+    "altura": 1365,
+    "larguras": [
+      480,
+      768
+    ]
+  },
   "beliche-01": {
     "largura": 1600,
     "altura": 1200,
@@ -80,6 +88,14 @@
       800,
       1200,
       1600
+    ]
+  },
+  "beliche-04": {
+    "largura": 768,
+    "altura": 1365,
+    "larguras": [
+      480,
+      768
     ]
   },
   "entrada-01": {
@@ -132,6 +148,14 @@
       1200
     ]
   },
+  "quarto-04": {
+    "largura": 768,
+    "altura": 1365,
+    "larguras": [
+      480,
+      768
+    ]
+  },
   "quarto-compartilhado-01": {
     "largura": 1600,
     "altura": 901,
@@ -161,6 +185,30 @@
       1200,
       1600,
       1920
+    ]
+  },
+  "quarto-compartilhado-04": {
+    "largura": 768,
+    "altura": 1365,
+    "larguras": [
+      480,
+      768
+    ]
+  },
+  "quarto-compartilhado-05": {
+    "largura": 768,
+    "altura": 1365,
+    "larguras": [
+      480,
+      768
+    ]
+  },
+  "quarto-compartilhado-06": {
+    "largura": 768,
+    "altura": 1365,
+    "larguras": [
+      480,
+      768
     ]
   },
   "quarto-individual-01": {

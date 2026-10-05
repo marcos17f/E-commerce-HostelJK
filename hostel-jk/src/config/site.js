@@ -45,6 +45,7 @@ export const site = {
   menu: [
     { label: 'O Hostel', href: '/#o-hostel' },
     { label: 'Quartos', href: '/#quartos' },
+    { label: 'Preços', href: '/#precos' },
     { label: 'Comodidades', href: '/#comodidades' },
     { label: 'Onde fica', href: '/#onde-fica' },
     { label: 'Dúvidas', href: '/#duvidas' },

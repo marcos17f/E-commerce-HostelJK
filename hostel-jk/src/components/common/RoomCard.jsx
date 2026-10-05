@@ -1,5 +1,4 @@
 import Card from '../ui/Card.jsx';
-import PriceSeal from '../ui/PriceSeal.jsx';
 import WhatsAppButton from '../ui/WhatsAppButton.jsx';
 import RoomFeatureList from './RoomFeatureList.jsx';
 import RoomGallery from './RoomGallery.jsx';
@@ -22,7 +21,6 @@ export default function RoomCard({ quarto }) {
           <RoomFeatureList itens={quarto.itens} />
 
           <div className="room-card__footer">
-            <PriceSeal valor={quarto.preco} className="room-card__seal" />
             <WhatsAppButton mensagem={mensagemParaQuarto(quarto.nome)}>
               Reservar
             </WhatsAppButton>

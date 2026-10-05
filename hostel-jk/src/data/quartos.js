@@ -6,7 +6,6 @@ export const quartos = [
     tipo: 'Compartilhado',
     descricao:
       'Pra quem viaja em grupo ou sozinho e quer fazer amizade. Camas de solteiro bem arrumadas, ar-condicionado e espaço pra guardar sua bagagem com tranquilidade.',
-    preco: 60,
     itens: [
       '2 ou 3 camas de solteiro',
       'Ar-condicionado',
@@ -27,7 +26,6 @@ export const quartos = [
     tipo: 'Compartilhado',
     descricao:
       'Beliches de madeira e ferro, resistentes e confortáveis, pra caber mais gente sem perder o conforto. Ideal pra galera que tá de passagem ou em grupo grande.',
-    preco: 50,
     itens: [
       'Beliches de madeira e ferro',
       'Ar-condicionado',
@@ -44,7 +42,6 @@ export const quartos = [
     tipo: 'Individual',
     descricao:
       'Seu canto só seu. Cama de casal, penteadeira e cortina bacana pra quem quer mais privacidade sem abrir mão do preço justo.',
-    preco: 140,
     itens: [
       'Cama de casal',
       'Penteadeira',

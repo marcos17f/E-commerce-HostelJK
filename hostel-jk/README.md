@@ -22,7 +22,7 @@ hostel-jk/
     ├── config/
     │   └── site.js         # nome, endereço, telefone, WhatsApp, Instagram, SEO, menu
     ├── data/
-    │   ├── quartos.js       # catálogo de quartos (preços, descrições, fotos)
+    │   ├── quartos.js       # catálogo de quartos (descrições, fotos)
     │   └── conteudo.js      # benefícios, públicos, comodidades, distâncias, FAQ, galeria
     ├── utils/
     │   └── whatsapp.js      # geração de links wa.me
@@ -64,7 +64,8 @@ npm run preview   # opcional, serve a build localmente
 Nenhum texto, preço ou telefone está escrito dentro dos componentes — tudo vem de `src/config` e `src/data`:
 
 - **`src/config/site.js`** — nome do hostel, endereço, telefone, número do WhatsApp, Instagram, textos de SEO e itens do menu.
-- **`src/data/quartos.js`** — cada quarto (id, nome, tipo, descrição, preço, itens/comodidades e fotos). Edite o array `quartos` para mudar preços, descrições ou adicionar/remover acomodações.
+- **`src/data/quartos.js`** — cada quarto (id, nome, tipo, descrição, itens/comodidades e fotos). Edite o array `quartos` para mudar descrições ou adicionar/remover acomodações.
+- **`src/data/precos.js`** — tabela de diárias por número de hóspedes (seção "Preços"). Edite o array `diarias` para mudar os valores.
 - **`src/data/conteudo.js`** — benefícios da faixa inicial, públicos-alvo, comodidades, distâncias de pontos de referência, perguntas do FAQ e itens da galeria.
 
 Depois de editar esses arquivos, basta salvar — o Vite recarrega a página automaticamente durante o `npm run dev`.

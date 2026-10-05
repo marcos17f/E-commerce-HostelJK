@@ -10,3 +10,11 @@ export function gerarLinkWhatsApp(mensagem = MENSAGEM_PADRAO) {
 export function mensagemParaQuarto(nomeQuarto) {
   return `Olá! Tenho interesse no ${nomeQuarto}.`;
 }
+
+export function mensagemParaDiaria(hospedes, valor) {
+  return `Olá! Vim pelo site e quero reservar para ${hospedes} no Hostel JK (diária de R$ ${valor}).`;
+}
+
+export function mensagemParaGrupo(pessoas) {
+  return `Olá! Vim pelo site e quero falar com o gerente sobre hospedagem para um grupo de ${pessoas} ou mais pessoas.`;
+}

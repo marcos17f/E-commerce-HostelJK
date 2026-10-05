@@ -880,15 +880,6 @@
   flex-wrap: wrap;
 }
 
-/* Selo compacto: tamanhos reais em vez de scale(), que deixava o texto com ~8px */
-.room-card__seal {
-  padding: 8px 14px;
-}
-
-.room-card__seal .price-seal__value {
-  font-size: 18px;
-}
-
 /* ============ Common: RoomFeatureList ============ */
 .room-feature-list {
   display: flex;
@@ -971,6 +962,83 @@
 
 .room-gallery__dot--active {
   background: var(--gold);
+}
+
+/* ============ Section: Prices ============ */
+.prices {
+  padding: 96px 0;
+}
+
+.prices__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+@media (min-width: 640px) {
+  .prices__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.prices__grid-full {
+  grid-column: 1 / -1;
+}
+
+.price-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  text-align: center;
+  padding: 22px 14px;
+  cursor: pointer;
+  transition: border-color var(--transition), background var(--transition);
+}
+
+.price-card:hover {
+  border-color: var(--gold);
+}
+
+.price-card--active {
+  border-color: var(--gold);
+  background: rgba(245, 179, 1, 0.12);
+  box-shadow: 0 0 0 1px var(--gold);
+}
+
+.price-card__people {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.price-card__value {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(24px, 5vw, 30px);
+  color: var(--gold);
+  line-height: 1.1;
+}
+
+.price-card__unit {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.prices__cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.prices__cta-text {
+  color: var(--muted);
+  font-size: 15px;
 }
 
 /* ============ Section: Amenities ============ */
@@ -1134,12 +1202,6 @@
 
 @media (min-width: 640px) {
   .gallery__grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (min-width: 960px) {
-  .gallery__grid {
     grid-template-columns: repeat(4, 1fr);
   }
 }
@@ -1147,7 +1209,7 @@
 /* ============ Common: GalleryItem ============ */
 .gallery-item {
   position: relative;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 3 / 4;
   overflow: hidden;
   border-radius: var(--radius-sm);
 }
