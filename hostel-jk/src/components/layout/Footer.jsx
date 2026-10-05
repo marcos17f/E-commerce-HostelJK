@@ -44,7 +44,9 @@ export default function Footer() {
             © {new Date().getFullYear()} {site.nome}. Todos os direitos reservados.
           </p>
           <p>
-            <strong>{site.credito.texto}</strong>
+            <a href={site.credito.url} target="_blank" rel="noopener noreferrer">
+              <strong>{site.credito.texto}</strong> · {site.credito.telefone}
+            </a>
           </p>
         </div>
       </Container>

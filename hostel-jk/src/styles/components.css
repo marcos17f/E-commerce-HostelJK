@@ -513,6 +513,10 @@
   color: var(--gold);
 }
 
+.footer__credit a:hover {
+  color: var(--text);
+}
+
 /* ============ Layout: FloatingWhatsApp ============ */
 .floating-whatsapp {
   position: fixed;

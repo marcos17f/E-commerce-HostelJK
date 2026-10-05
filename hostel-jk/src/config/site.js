@@ -53,5 +53,7 @@ export const site = {
 
   credito: {
     texto: 'Desenvolvido por MarcosLab',
+    telefone: '(61) 99907-5453',
+    url: 'https://wa.me/5561999075453',
   },
 };
